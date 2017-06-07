@@ -3,7 +3,7 @@ FROM alpine:3.5
 VOLUME /site
 WORKDIR /site
 
-ENV HUGO_VERSION 0.20.2
+ENV HUGO_VERSION 0.21
 
 RUN apk add --no-cache curl && \
 	curl -fSL https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | \
