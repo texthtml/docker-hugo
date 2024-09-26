@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.20
 
 VOLUME /site
 WORKDIR /site
